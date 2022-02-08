@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{F861A07D-224A-45D4-A8FC-81F6781289AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.Middleware.Example", "Shamrik.Middleware.Example\Shamrik.Middleware.Example.csproj", "{D82D835F-D931-4F08-9512-C53425C30A16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{51259D46-C088-40F9-8A38-BA1CCA1778EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.GetAllServiceInfo", "Shamrik.DI.GetAllServiceInfo\Shamrik.DI.GetAllServiceInfo.csproj", "{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D82D835F-D931-4F08-9512-C53425C30A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82D835F-D931-4F08-9512-C53425C30A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82D835F-D931-4F08-9512-C53425C30A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82D835F-D931-4F08-9512-C53425C30A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D82D835F-D931-4F08-9512-C53425C30A16} = {F861A07D-224A-45D4-A8FC-81F6781289AB}
+		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+	EndGlobalSection
+EndGlobal
