@@ -8,6 +8,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{51259D46-C088-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.GetAllServiceInfo", "Shamrik.DI.GetAllServiceInfo\Shamrik.DI.GetAllServiceInfo.csproj", "{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.CreateService_1", "Shamrik.DI.CreateService_1\Shamrik.DI.CreateService_1.csproj", "{F2605DF9-728E-47C3-B448-1884E72E6169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.CreateService_2", "Shamrik.DI.CreateService_2\Shamrik.DI.CreateService_2.csproj", "{45241A99-177A-4F0D-9245-C849C27C5B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.ServiceExtension", "Shamrik.DI.ServiceExtension\Shamrik.DI.ServiceExtension.csproj", "{5C7A09AC-3EC2-447A-ACEA-6CB6EF032854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.TransmittingDependencies.Configure", "Shamrik.DI.TransmittingDependencies.Configure\Shamrik.DI.TransmittingDependencies.Configure.csproj", "{C4BE1A99-B4DD-435F-9C2E-56355906804E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.TransmittingDependencies.Constructors", "Shamrik.DI.TransmittingDependencies.Constructors\Shamrik.DI.TransmittingDependencies.Constructors.csproj", "{25A123F2-3974-41F5-8219-C265D6E786E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.TransmittingDependencies.HttpContext", "Shamrik.DI.TransmittingDependencies.HttpContext\Shamrik.DI.TransmittingDependencies.HttpContext.csproj", "{3452992B-7F9B-420B-A9D4-0C0DCB59EA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.TransmittingDependencies.ApplicationServices", "Shamrik.DI.TransmittingDependencies.ApplicationServices\Shamrik.DI.TransmittingDependencies.ApplicationServices.csproj", "{33EC6094-5E0D-4E65-8108-9AE1987FB83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.DI.TransmittingDependencies.Middleware", "Shamrik.DI.TransmittingDependencies.Middleware\Shamrik.DI.TransmittingDependencies.Middleware.csproj", "{25A7922E-23B7-4BB5-B028-1E75446EBBD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +38,49 @@ Global
 		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2605DF9-728E-47C3-B448-1884E72E6169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2605DF9-728E-47C3-B448-1884E72E6169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2605DF9-728E-47C3-B448-1884E72E6169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2605DF9-728E-47C3-B448-1884E72E6169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45241A99-177A-4F0D-9245-C849C27C5B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45241A99-177A-4F0D-9245-C849C27C5B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45241A99-177A-4F0D-9245-C849C27C5B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45241A99-177A-4F0D-9245-C849C27C5B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7A09AC-3EC2-447A-ACEA-6CB6EF032854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7A09AC-3EC2-447A-ACEA-6CB6EF032854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7A09AC-3EC2-447A-ACEA-6CB6EF032854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7A09AC-3EC2-447A-ACEA-6CB6EF032854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BE1A99-B4DD-435F-9C2E-56355906804E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BE1A99-B4DD-435F-9C2E-56355906804E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BE1A99-B4DD-435F-9C2E-56355906804E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BE1A99-B4DD-435F-9C2E-56355906804E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A123F2-3974-41F5-8219-C265D6E786E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A123F2-3974-41F5-8219-C265D6E786E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A123F2-3974-41F5-8219-C265D6E786E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A123F2-3974-41F5-8219-C265D6E786E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3452992B-7F9B-420B-A9D4-0C0DCB59EA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3452992B-7F9B-420B-A9D4-0C0DCB59EA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3452992B-7F9B-420B-A9D4-0C0DCB59EA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3452992B-7F9B-420B-A9D4-0C0DCB59EA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EC6094-5E0D-4E65-8108-9AE1987FB83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EC6094-5E0D-4E65-8108-9AE1987FB83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EC6094-5E0D-4E65-8108-9AE1987FB83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EC6094-5E0D-4E65-8108-9AE1987FB83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A7922E-23B7-4BB5-B028-1E75446EBBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A7922E-23B7-4BB5-B028-1E75446EBBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A7922E-23B7-4BB5-B028-1E75446EBBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A7922E-23B7-4BB5-B028-1E75446EBBD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D82D835F-D931-4F08-9512-C53425C30A16} = {F861A07D-224A-45D4-A8FC-81F6781289AB}
 		{6DC8E03C-AC9E-4B5B-9AFE-041577D46C63} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{F2605DF9-728E-47C3-B448-1884E72E6169} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{45241A99-177A-4F0D-9245-C849C27C5B8D} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{5C7A09AC-3EC2-447A-ACEA-6CB6EF032854} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{C4BE1A99-B4DD-435F-9C2E-56355906804E} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{25A123F2-3974-41F5-8219-C265D6E786E6} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{3452992B-7F9B-420B-A9D4-0C0DCB59EA57} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{33EC6094-5E0D-4E65-8108-9AE1987FB83A} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
+		{25A7922E-23B7-4BB5-B028-1E75446EBBD2} = {51259D46-C088-40F9-8A38-BA1CCA1778EC}
 	EndGlobalSection
 EndGlobal
