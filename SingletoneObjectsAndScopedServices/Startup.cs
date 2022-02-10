@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Shamrik.DI.TransmittingDependencies.HttpContext.Services;
+using SingletoneObjectsAndScopedServices.Classes;
+using SingletoneObjectsAndScopedServices.Middlewares;
+using SingletoneObjectsAndScopedServices.Services;
 
-namespace Shamrik.DI.TransmittingDependencies.HttpContext
+namespace SingletoneObjectsAndScopedServices
 {
     public class Startup
     {
@@ -12,18 +13,22 @@ namespace Shamrik.DI.TransmittingDependencies.HttpContext
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IMessageSender, EmailMessageSender>();
+            services.AddTransient<ITimer, Timer>();
+            services.AddScoped<TimeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.Run(async context =>
+            app.UseDeveloperExceptionPage();
+
+            app.UseMiddleware<TimerMiddleware>();
+          /*  app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
             {
-                IMessageSender messageSender = context.RequestServices.GetService<IMessageSender>();
-                context.Response.ContentType = "text/html;charset=utf-8";
-                await context.Response.WriteAsync(messageSender.Send());
-            });
+                endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello World!"); });
+            });*/
         }
     }
 }

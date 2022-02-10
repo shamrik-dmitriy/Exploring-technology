@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Shamrik.DI.TransmittingDependencies.Configure
+namespace SingletoneObjectsAndScopedServices
 {
     public class Program
     {
