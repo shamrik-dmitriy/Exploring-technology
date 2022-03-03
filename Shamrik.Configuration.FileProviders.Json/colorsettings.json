@@ -1,0 +1,10 @@
+﻿{
+  "color": {
+    "background-color": {
+      "color": "red"
+    },
+    "foreground-color": {
+      "color": "white"
+    }
+  }
+}
