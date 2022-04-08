@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.Configuration.FileP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.Configuration.FileProviders.Xml", "Shamrik.Configuration.FileProviders.Xml\Shamrik.Configuration.FileProviders.Xml.csproj", "{D0B8F536-EFE5-49DF-A6F6-01E3A45D804A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamrik.Configuration.FileProviders.Ini", "Shamrik.Configuration.FileProviders.Ini\Shamrik.Configuration.FileProviders.Ini.csproj", "{9F8411AC-6AD6-4B24-876E-24CC69EB8955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,6 +128,10 @@ Global
 		{D0B8F536-EFE5-49DF-A6F6-01E3A45D804A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B8F536-EFE5-49DF-A6F6-01E3A45D804A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B8F536-EFE5-49DF-A6F6-01E3A45D804A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8411AC-6AD6-4B24-876E-24CC69EB8955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8411AC-6AD6-4B24-876E-24CC69EB8955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8411AC-6AD6-4B24-876E-24CC69EB8955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8411AC-6AD6-4B24-876E-24CC69EB8955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D82D835F-D931-4F08-9512-C53425C30A16} = {F861A07D-224A-45D4-A8FC-81F6781289AB}
@@ -149,5 +155,6 @@ Global
 		{0F863F24-C750-4D28-83FB-73DF7A0A64D1} = {196160B8-2E84-44BB-ABDD-98ADFE347AC3}
 		{7762C28D-8767-41A3-89CF-74E97950A10A} = {196160B8-2E84-44BB-ABDD-98ADFE347AC3}
 		{D0B8F536-EFE5-49DF-A6F6-01E3A45D804A} = {196160B8-2E84-44BB-ABDD-98ADFE347AC3}
+		{9F8411AC-6AD6-4B24-876E-24CC69EB8955} = {196160B8-2E84-44BB-ABDD-98ADFE347AC3}
 	EndGlobalSection
 EndGlobal
